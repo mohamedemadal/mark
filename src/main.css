@@ -1,0 +1,106 @@
+#navbar{
+  /* background-image: url('./views/frontend/image/112.png') !important;
+  background-size: cover !important;
+  background-repeat: no-repeat !important; */
+  }
+  Button{
+    transform: scale(.9) !important;
+  }
+  .p-button .p-button-icon-left {
+    margin-left: 8px !important;
+    /* visibility: hidden !important; */
+  }
+td{
+  text-align: justify !important;
+  /* padding-top: 1px !important;
+  padding-bottom: 1px !important; */
+}
+.v-list-group--prepend{
+  background-color: white  !important ;
+  color: black !important;
+  border-radius: 5px !important;
+}
+.v-list-group--prepend::-webkit-scrollbar {
+  display: none !important;
+
+}
+.v-navigation-drawer__content::-webkit-scrollbar {
+  display: none !important;
+}
+.fc.fc-theme-standard .fc-toolbar .fc-button-group .fc-button:first-child , .fc.fc-theme-standard .fc-toolbar .fc-button-group .fc-button:last-child{
+  border-radius: 5px !important;
+}
+.v-list-group__items .v-list-item{
+  /* background-color: rgb(236, 234, 229); */
+}
+.create{
+  background-color: #135C65 !important;
+}
+.p-inputnumber-input{
+  background-color: #f7f5f5 !important;
+}
+.p-datatable .p-sortable-column .p-sortable-column-icon{
+  margin-right: 5px !important;
+}
+.delete{
+  background-color: rgb(255, 77, 77) !important;
+}
+.export{
+  background-color: rgb(106, 106, 231) !important;
+}
+
+.details{
+  background-color: #135C65 !important;
+}
+.show{
+  background-color: #6A6AE7 !important;
+}
+.p-inputtext:enabled ,.p-dropdown{
+  background-color: #f7f5f5 !important;
+;
+}
+
+.p-multiselect .p-multiselect-label.p-placeholder{
+  text-align: center !important;
+}
+.p-calendar-w-btn .p-datepicker-trigger{
+  background-color:#135C65 !important;
+  border-radius: 0px !important;
+}
+.v-list-item--density-compact.v-list-item--one-line{
+  background-color: white  !important ;
+  color: black !important;
+  border-radius: 5px !important;
+}
+canvas {
+  width: 100% !important;
+  height: 60vh !important;
+}
+.p-inputtext:enabled{
+
+  height: 50px!important;
+}
+/* .fc-daygrid-block-event .fc-event-time, .fc-daygrid-block-event .fc-event-title{
+  background-color: #135C65!important;
+  color: white !important;
+  border: 0 !important;
+  width: 100% !important;
+  text-align: center !important;
+}
+.fc-h-event .fc-event-main-frame{
+  background-color: white !important;
+  border: 0 !important;
+} */
+.v-textarea .v-field--no-label textarea, .v-textarea .v-field--active textarea {
+
+    background-color: #EAE8E9 !important;
+  }
+
+
+@media (min-width: 1280px) {
+
+      .v-container {
+          max-width: 1300px !important;
+          /* width: 100%; */
+      }
+  }
